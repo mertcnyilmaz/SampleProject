@@ -8,12 +8,19 @@ the direction the rover is facing. The roaming information continues to be read 
 he finishes his walk. If one of the roamers moves outside the specified area or if an invalid parameter is encountered, subsequent roamers will not proceed.
 
 Test Input:
+
 5 5
+
 1 2 N
+
 LMLMLMLMM
+
 3 3 E
+
 MMRMMRMRRM
 
 Expected Output:
+
 1 3 N
+
 5 1 E
